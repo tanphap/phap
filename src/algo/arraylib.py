@@ -1,6 +1,6 @@
 from phap import ErrorTemplate
 
-class phap_numalgo_deskcheck_DataNotTrueError(ErrorTemplate):
+class phap_numalgo_deskcheck_DataNotTrueError(ErrorTemplate):  # 从phap包导入错误类模板，具体可见phap/__init__.py
     message = "The value is not true."
     info_list = ["Try to change a new value."]
 
@@ -10,5 +10,5 @@ def deskcheck(
         direction : int = 0,  # 0顺序 1倒回
         group_w : int = 2,
         group_h : int = 2,
-        ):
+        ):  # 一个用于按特定顺序打乱多维数组的函数，暂时不作具体实现
     pass

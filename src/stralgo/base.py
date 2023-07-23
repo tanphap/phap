@@ -1,3 +1,5 @@
+# 本模块是关于base系列算法的集合
+
 from base64 import b16encode as _b16e
 from base64 import b16decode as _b16d
 from base64 import b32encode as _b32e

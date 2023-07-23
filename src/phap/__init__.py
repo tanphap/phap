@@ -3,8 +3,8 @@ import stralgo
 from random import randint
 
 class ErrorTemplate(Exception):  # 错误模板
-    message = ""
-    info_list = []
+    message = ""  # 错误信息
+    info_list = []  # 错误提示，若没有则从参数获取
     info_tips = "Detailed information: "
     def __init__(self, info:str = None):
         if info != None:

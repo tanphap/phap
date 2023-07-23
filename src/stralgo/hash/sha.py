@@ -1,4 +1,6 @@
 from hashlib import sha256 as _s2
+# 本模块是关于sha算法系列的集合
+
 from hashlib import sha512 as _s5
 
 def sha256(data:bytes) -> str:

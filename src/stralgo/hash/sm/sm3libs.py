@@ -1,3 +1,7 @@
+'''
+本模块中部分内容为互联网中搜集
+'''
+
 def sm3_int_hex(
         m='61626364616263646162636461626364616263646162636461626364616263646162636461626364616263646162636461626364616263646162636461626364',
         IV='7380166f4914b2b9172442d7da8a0600a96f30bc163138aae38dee4db0fb0e4e'
@@ -262,7 +266,7 @@ def str_to_int(text:str) -> str:
     #print(s)
     return(s)
 
-def sm3(text:str, IV:str='7380166f4914b2b9172442d7da8a0600a96f30bc163138aae38dee4db0fb0e4e') -> str:
+def sm3(text:str, IV:str='7380166f4914b2b9172442d7da8a0600a96f30bc163138aae38dee4db0fb0e4e') -> str:  # 商密算法的主函数
     s = str_to_int(text)
     s = sm3_int_hex(m=s, IV=IV)
     return(s)

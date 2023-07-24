@@ -1,4 +1,4 @@
-from phap import ErrorTemplate
+from pba import ErrorTemplate
 
 class phap_numalgo_deskcheck_DataNotTrueError(ErrorTemplate):  # 从phap包导入错误类模板，具体可见phap/__init__.py
     message = "The value is not true."

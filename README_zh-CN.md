@@ -1,4 +1,4 @@
-# phap
+# PHAP
 ### *Programing Helpful Algorithm Package*
 #### *一个对编程有帮助的算法包*
 ### 本项目由Python3.11环境下编写，资源在该环境下编译
@@ -22,12 +22,12 @@
 
 ## 最新版本
 ### *(master分支下数据不准确, 具体查看dev分支)*
-+ v3.1.0-alpha2
++ v3.1.0-alpha3
 
 # 使用
 ## 阅读开发文档
 ### *(尽量打开项目链接中的[Github](https://github.com/DashBing/phap/ "Github")链接打开，使用Pypi或其他链接可能会发生打不开的情况)*
-+ [开发文档链接](doc/README.md)
++ [开发文档链接](doc/README_zh-CN.md)
 
 # 从源码构建
 ## 准备工作

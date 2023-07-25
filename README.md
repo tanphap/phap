@@ -1,9 +1,9 @@
-# phap
+# PHAP
 ### *Programing Helpful Algorithm Package*
 ### Powered by Python 3.11
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 
-### English  | [简体中文](README-zh-CN.md)
+### English  | [简体中文](README_zh-CN.md)
 #### *如果你不是在Github上阅读本说明，你可能无法打开非英语版本的说明文档*
 #### *请前往[Github](https://github.com/DashBing/phap/ "Github")网站，确保你能够成功地切换语言*
 
@@ -22,7 +22,7 @@
 
 ## Latest Version
 ### *(The data under the master branch is inaccurate. Please refer to the dev branch for details)*
-+ v3.1.0-alpha2
++ v3.1.0-alpha3
 
 # To Use
 ## Read our development document

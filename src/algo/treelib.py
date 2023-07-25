@@ -1,4 +1,4 @@
-from pba import ErrorTemplate
+from phapbm import ErrorTemplate
 
 class ValueTypeError(ErrorTemplate):  # 从phap包继承错误类模板，具体可见phap/__init__.py
     message = "The value's type must not be treenode."

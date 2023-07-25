@@ -22,7 +22,7 @@
 
 ## Latest Version
 ### *(The data under the master branch is inaccurate. Please refer to the dev branch for details)*
-+ v3.1.0-alpha3
++ v3.1.0-alpha4
 
 # To Use
 ## Read our development document

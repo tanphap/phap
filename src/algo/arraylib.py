@@ -1,6 +1,6 @@
 from phapbm import ErrorTemplate
 
-class phap_numalgo_deskcheck_DataNotTrueError(ErrorTemplate):  # 从phap包导入错误类模板，具体可见phap/__init__.py
+class phap_numalgo_deskcheck_DataNotTrueError(ErrorTemplate):  # 从phapbm包导入错误类模板，具体可见phapbm/__init__.py
     message = "The value is not true."
     info_list = ["Try to change a new value."]
 

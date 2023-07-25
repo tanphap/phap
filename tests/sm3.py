@@ -1,4 +1,3 @@
-from phap.hash.sm import sm3
-print(dir(phap))
+from ..src.phap.hash.sm import sm3
 while True:
     print(sm3(text=input()))

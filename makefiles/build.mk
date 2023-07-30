@@ -14,10 +14,6 @@ endif
 build:
 	$(python) -m build
 
-upload:
-	$(python) -m twine upload ./dist/*
-	@$(mv) ./dist/* ./releases
-
 init:
 	$(python) -m pip install -U build
 	$(python) -m pip install -U twine

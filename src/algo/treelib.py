@@ -61,8 +61,14 @@ class treenode:  # 二叉树类
 
     def get_depth(self) -> int:  # 对于depth只读属性的函数封装
         return(self.depth)
-    #def getnode(self) -> str:
-    #    l = self.getlist()
-    #    return("")
-    #def __str__(self) -> str:
-    #    return(self.getnode())
+    
+    @property
+    def node(self) -> str:
+        #l = self.getlist()
+        return("")
+    
+    def getnode(self) -> str:
+        return(self.node)
+
+    def __str__(self) -> str:
+        return(self.node)

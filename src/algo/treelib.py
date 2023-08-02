@@ -21,26 +21,30 @@ class treenode:  # 二叉树类
         '''To set the node from list'''
         self.val = val[0]  # 设置本类初始节点参数
         if str(type(val[1])) == str(type([])):  # 如果初始节点左侧是嵌套的列表
-            self.left = treenode().setfromlist(val[1])  # 则创建一个新的本类实例，并将所得列表传参给实例的本函数，并将本类左侧参数赋值
+            tmpo = treenode()  # 则创建一个新的本类实例，并将所得列表传参给实例的本函数，并将本类左侧参数赋值
+            tmpo.setfromlist(val[1])
+            self.left = tmpo
         else:
             self.left = val[1]
         if str(type(val[2])) == str(type([])):  # 原理同上
-            self.right = treenode().setfromlist(val[2])
+            tmpo = treenode()
+            tmpo.setfromlist(val[2])
+            self.right = tmpo
         else:
             self.right = val[2]
 
-    def __eq__(self, value:object) -> bool:  # 简化赋值的运算符重载
-        try:
-            if str(type(value)) in self.__t:  # 如果赋值表达式的右值为二叉树类
-                self.val = value.val  # 从该类获取必要信息并赋值本类
-                self.left = value.left
-                self.right = value.right
-            else:  # 否则调用setfromlist函数
-                self.setfromlist(value)
-        except:
-            return(False)
-        else:
-            return(True)
+    #def __eq__(self, value:object) -> bool:  # 简化赋值的运算符重载
+    #    try:
+    #        if str(type(value)) in self.__t:  # 如果赋值表达式的右值为二叉树类
+    #            self.val = value.val  # 从该类获取必要信息并赋值本类
+    #            self.left = value.left
+    #            self.right = value.right
+    #        else:  # 否则调用setfromlist函数
+    #            self.setfromlist(value)
+    #    except:
+    #        return(False)
+    #    else:
+    #        return(True)
     
     #def __setattr__(self, __name: str, __value: Any) -> None:  # 用于对一些关键的常量禁止赋值
     #    pass
@@ -90,13 +94,14 @@ class treenode:  # 二叉树类
     def get_depth(self) -> int:  # 对于depth只读属性的函数封装
         return(self.depth)
     
-    #@property
-    #def node(self) -> str:  # 返回一个简洁明了的二叉树字符串
-    #    #l = self.getlist()
-    #    return("")
+    @property
+    def node(self) -> str:  # 返回一个简洁明了的二叉树字符串
+        #l = self.getlist()
+        #return("")
+        return(str(self.listdata))  # 临时如此实现，后续改进
     
-    #def getnode(self) -> str:
-    #    return(self.node)
+    def getnode(self) -> str:
+        return(self.node)
 
-    #def __str__(self) -> str:  # 使开发者可以直接使用print函数打印二叉树
-    #    return(self.node)
+    def __str__(self) -> str:  # 使开发者可以直接使用print函数打印二叉树
+        return(self.node)

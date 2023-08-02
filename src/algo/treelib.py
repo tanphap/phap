@@ -17,21 +17,24 @@ class treenode:  # 二叉树类
         self.left = left  # 将本类初始节点的左右侧分别赋值
         self.right = right
 
-    def setfromlist(self, val:list) -> None:  # 支持从列表设置本二叉树的函数，结构为[参数,左,右]，可嵌套
+    def set_from_list(self, val:list) -> None:  # 支持从列表设置本二叉树的函数，结构为[参数,左,右]，可嵌套
         '''To set the node from list'''
         self.val = val[0]  # 设置本类初始节点参数
         if str(type(val[1])) == str(type([])):  # 如果初始节点左侧是嵌套的列表
             tmpo = treenode()  # 则创建一个新的本类实例，并将所得列表传参给实例的本函数，并将本类左侧参数赋值
-            tmpo.setfromlist(val[1])
+            tmpo.set_from_list(val[1])
             self.left = tmpo
         else:
             self.left = val[1]
         if str(type(val[2])) == str(type([])):  # 原理同上
             tmpo = treenode()
-            tmpo.setfromlist(val[2])
+            tmpo.set_from_list(val[2])
             self.right = tmpo
         else:
             self.right = val[2]
+
+    def setfromlist(self, val:list) -> None:
+        return(self.set_from_list(val))
 
     #def __eq__(self, value:object) -> bool:  # 简化赋值的运算符重载
     #    try:
@@ -40,7 +43,7 @@ class treenode:  # 二叉树类
     #            self.left = value.left
     #            self.right = value.right
     #        else:  # 否则调用setfromlist函数
-    #            self.setfromlist(value)
+    #            self.set_from_list(value)
     #    except:
     #        return(False)
     #    else:
@@ -66,6 +69,13 @@ class treenode:  # 二叉树类
     def listdata(self) -> list:  # 用于获取数的列表信息的只读属性
         return(self.get_list())
     
+    @property
+    def list_data(self) -> list:
+        return(self.get_list())
+
+    def getlist(self) -> list:
+        return(self.get_list())
+
     #def get_list_from_depth(self, depth:int) -> list:  # 获取特定深度上的所有内容
     #    if self.depth > depth:
     #        pass
@@ -77,31 +87,38 @@ class treenode:  # 二叉树类
     #def __getitem__(self, key:int) -> list:
     #    return(self.get_list_from_depth(key))
 
-    @property
-    def depth(self) -> int:  # 用于获取数的深度信息的只读属性
+    # 本函数有严重问题，将在3.1.1进行修复
+    def get_depth(self) -> int:  # 对于depth只读属性的函数封装
         ld = 0
         if str(type(self.left)) in self.__t:  # 统计左树深度，如果左数类型是二叉树，则调用该类统计深度的属性
-            ld += self.left.depth
+            ld += self.left.get_depth()
         else:  # 否则加一
             ld += 1
         rd = 0
         if str(type(self.right)) in self.__t:  # 原理同上
-            rd += self.right.depth
+            rd += self.right.get_depth()
         else:
             rd += 1
         return(max(ld, rd))  # 返回左右中的最大值
-
-    def get_depth(self) -> int:  # 对于depth只读属性的函数封装
-        return(self.depth)
     
     @property
-    def node(self) -> str:  # 返回一个简洁明了的二叉树字符串
-        #l = self.getlist()
+    def depth(self) -> int:  # 用于获取数的深度信息的只读属性
+        return(self.get_depth())
+    
+    def getdepth(self) -> int:
+        return(self.get_depth())
+
+    def get_node(self) -> str:  # 返回一个简洁明了的二叉树字符串
+        #l = self.get_list()
         #return("")
         return(str(self.listdata))  # 临时如此实现，后续改进
-    
+
+    @property
+    def node(self) -> str:
+        return(self.get_node())
+
     def getnode(self) -> str:
-        return(self.node)
+        return(self.get_node())
 
     def __str__(self) -> str:  # 使开发者可以直接使用print函数打印二叉树
-        return(self.node)
+        return(self.get_node())

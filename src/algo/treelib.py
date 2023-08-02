@@ -87,7 +87,7 @@ class treenode:  # 二叉树类
     #def __getitem__(self, key:int) -> list:
     #    return(self.get_list_from_depth(key))
 
-    # 本函数有严重问题，将在3.1.1进行修复
+    # 危险 急需改进
     def get_depth(self) -> int:  # 对于depth只读属性的函数封装
         ld = 0
         if str(type(self.left)) in self.__t:  # 统计左树深度，如果左数类型是二叉树，则调用该类统计深度的属性

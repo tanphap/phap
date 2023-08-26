@@ -6,9 +6,9 @@
 ### [English](README.md)  | 简体中文
 
 # 项目链接
-[Github](https://github.com/DashBing/phap/ "Github") | [Pypi](https://pypi.org/project/phap/ "Pypi") | [Pypi (stralgo)](https://pypi.org/project/stralgo/ "Pypi (stralgo)")
+[Github](https://github.com/DashStudio/phap/ "Github") | [Pypi](https://pypi.org/project/phap/ "Pypi") | [Pypi (stralgo)](https://pypi.org/project/stralgo/ "Pypi (stralgo)")
 <br><br>
-[Kgithub](https://kgithub.com/DashBing/phap/)：国内Github镜像站，可能会有延迟，推送请使用Github链接推送
+[Kgithub](https://kgithub.com/DashStudio/phap/)：国内Github镜像站，可能会有延迟，推送请使用Github链接推送
 
 # 版本
 ## 稳定版本
@@ -26,7 +26,7 @@
 
 # 使用
 ## 阅读开发文档
-### *(尽量打开项目链接中的[Github](https://github.com/DashBing/phap/ "Github")链接打开，使用Pypi或其他链接可能会发生打不开的情况)*
+### *(尽量打开项目链接中的[Github](https://github.com/DashStudio/phap "Github")链接打开，使用Pypi或其他链接可能会发生打不开的情况)*
 + [开发文档链接](doc/README_zh-CN.md)
 
 # 从源码构建
@@ -35,15 +35,15 @@
 + 安装Python(3.9版本或者3.11版本皆可)
 + 从源码仓库克隆源代码
 ```
-git clone git@github.com:DashBing/phap.git
+git clone git@github.com:DashStudio/phap.git
 ```
 #### 或者
 ```
-git clone https://github.com/DashBing/phap.git
+git clone https://github.com/DashStudio/phap.git
 ```
 ### 国内网比较差可以尝试：
 ```
-git clone https://kgithub.com/DashBing/phap.git
+git clone https://kgithub.com/DashStudio/phap.git
 ```
 
 ## 初始化打包环境

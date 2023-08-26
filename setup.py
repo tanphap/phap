@@ -5,16 +5,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="phap",
-    version="3.1.1a1",  #版本
+    version="3.1.1a2",  #版本
     author="DashBing",
     author_email="mcbbkf@outlook.com",
     description="Programing Helpful Algorithm Package",
     long_description=long_description,
     long_description_content_type="text/markdown",
     #scripts=[],
-    url="https://github.com/DashBing/phap/",
+    url="https://github.com/DashStudio/phap",
     project_urls={
-        "Github": "https://github.com/DashBing/phap/",
+        "Github": "https://github.com/DashStudio/phap",
         "Old Project Version(stralgo)": "https://pypi.org/project/stralgo/"
     },  #额外链接
     classifiers=[

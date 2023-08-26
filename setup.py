@@ -27,6 +27,7 @@ setuptools.setup(
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: 3.11",
         "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
         #"Operating System :: Microsoft :: Windows",
         "Natural Language :: English",

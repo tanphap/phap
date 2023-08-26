@@ -4,6 +4,14 @@ A. HISTORY OF THE PROJECT VERSION
 The PHAP project was created in the March in 2023 by DashBing.
 The project was named Stralgo in the early times.
 
+The versions from v0.1.0 to v1.2.0 are under the project Stralgo,
+the newer versions are under the project PHAP.
+
+In the 22nd of May in 2023, the project has changed its name to PHAP.
+But the old versions of the project PHAP are still named Stralgo.
+So the old project named Stralgo is in the same repositories with PHAP.
+
+The copyright of the Stralgo project still belongs to the PHAP project and is now part of the PHAP project.
 
 
 B. THE LICENSES OF DEFFERENT VERSION
@@ -14,6 +22,9 @@ are under the jurisdiction of the MIT License.
 
 All the new versions except the versions of the over,
 are under the jurisdiction of the Apache License.
+
+The old parts of the version before the v3.0.0 in the newer version,
+are under the jurisdiction of the MIT License.
 
 
 Details are as follows:

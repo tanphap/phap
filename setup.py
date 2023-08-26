@@ -23,7 +23,7 @@ setuptools.setup(
         #"Development Status :: 3 - Alpha",
         #"Development Status :: 4 - Beta",
         "Development Status :: 5 - Production/Stable",
-        #"Development Status :: 7 - Inactive",
+        "Development Status :: 7 - Inactive",
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: 3.11",
         "License :: OSI Approved :: MIT License",

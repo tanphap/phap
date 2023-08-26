@@ -59,3 +59,13 @@ python -m pip install twine
 ```
 make build
 ```
+
+# About the copyrights
+## Current situation
+
+The old part of the project PHAP and the old project,
+are still under the MIT License.
+
+The newer version after v3.0.0 are under the ***Apache License 2.0*** .
+
+Let me see the [details](LICENSE).

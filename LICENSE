@@ -14,7 +14,7 @@ So the old project named Stralgo is in the same repositories with PHAP.
 The copyright of the Stralgo project still belongs to the PHAP project and is now part of the PHAP project.
 
 
-B. THE LICENSES OF DEFFERENT VERSION
+B. THE LICENSES
 ==================================================
 
 All v0.* and v1.* versions of the Stralgo project, as well as v2.* versions of the PHAP project,
@@ -26,6 +26,10 @@ are under the jurisdiction of the Apache License.
 The old parts of the version before the v3.0.0 in the newer version,
 are under the jurisdiction of the MIT License.
 
+The name "PHAP" is prohibited in the versions of using MIT License from being used in the naming of commercial software.
+If such problems are encountered and the software used the version is under the jurisdiction of the MIT License,
+then the problem will be handled according to the BSD License mentioned below.
+
 
 Details are as follows:
 
@@ -35,7 +39,7 @@ APACHE LICENSE FOR PHAP FROM v3.0.0 TO ALL THE NEWER VERSION
 
 
                     Copyright (c) 2023.7 DashBing & DashStudio
-                      All rights not involved are reserved.
+                     All rights not be mentioned are reserved.
 
 
                                  Apache License
@@ -212,6 +216,41 @@ APACHE LICENSE FOR PHAP FROM v3.0.0 TO ALL THE NEWER VERSION
       defend, and hold each Contributor harmless for any liability
       incurred by, or claims asserted against, such Contributor by reason
       of your accepting any such warranty or additional liability.
+
+
+BSD LICENSE FOR SOLVE THE PROBLEM OF NAMERIGHTS
+        Details:
+The name "PHAP" is prohibited in the versions of using MIT License from being used in the naming of commercial software.
+If such problems are encountered and the software used the version is under the jurisdiction of the MIT License,
+then the problem will be handled according to the BSD License mentioned below.
+--------------------------------------------------
+
+SPDX-License-Identifier: BSD-3-Clause
+
+Copyright (c) DashBing
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+3. Neither the name of the author nor the names of its contributors may
+   be used to endorse or promote products derived from this software
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
 
 
 MIT LICENSE FOR PHAP v2.0.0~v2.2.1

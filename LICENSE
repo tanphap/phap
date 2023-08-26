@@ -1,19 +1,29 @@
 A. HISTORY OF THE PROJECT VERSION
 ==================================================
 
-The PHAP project was created on the 23rd of April in 2023 by DashBing.
+The PHAP project was created in the March in 2023 by DashBing.
 The project was named Stralgo in the early times.
+
 
 
 B. THE LICENSES OF DEFFERENT VERSION
 ==================================================
 
+All v0.* and v1.* versions of the Stralgo project, as well as v2.* versions of the PHAP project,
+are under the jurisdiction of the MIT License.
 
-APACHE LICENSE FOR PHAP FROM v3.1.1 TO ALL THE NEWER VERSION
+All the new versions except the versions of the over,
+are under the jurisdiction of the Apache License.
+
+
+Details are as follows:
+
+
+APACHE LICENSE FOR PHAP FROM v3.0.0 TO ALL THE NEWER VERSION
 --------------------------------------------------
 
 
-                    Copyright (c) 2023.8 DashBing & DashStudio
+                    Copyright (c) 2023.7 DashBing & DashStudio
                       All rights not involved are reserved.
 
 
@@ -193,10 +203,34 @@ APACHE LICENSE FOR PHAP FROM v3.1.1 TO ALL THE NEWER VERSION
       of your accepting any such warranty or additional liability.
 
 
-MIT LICENSE FOR STRALGO v0.1.0~v1.2.0 AND PHAP v2.0.0~v3.1.0
+MIT LICENSE FOR PHAP v2.0.0~v2.2.1
 --------------------------------------------------
 
-Copyright (c) 2023.4 - 2023.8 DashBing
+Copyright (c) 2023.5 - 2023.7 DashBing
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+MIT LICENSE FOR STRALGO v0.1.0~v1.2.0
+--------------------------------------------------
+
+Copyright (c) 2023.3 - 2023.5 DashBing
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

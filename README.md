@@ -21,8 +21,7 @@
 + v3.1.0
 
 ## Latest Version
-### *(The data under the master branch is inaccurate. Please refer to the dev branch for details)*
-+ v3.1.1-alpha1
++ v3.1.1-alpha2
 
 # To Use
 ## Read our development document

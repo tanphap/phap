@@ -2,7 +2,7 @@
 ### *Programing Helpful Algorithm Package*
 #### *一个对编程有帮助的算法包*
 ### 本项目由Python3.11环境下编写，资源在该环境下编译
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
+[![Apache License 2.0](https://img.shields.io/badge/license-Apache2.0-green.svg?style=flat)](https://choosealicense.com/licenses/apache-2.0/)
 ### [English](README.md)  | 简体中文
 
 # 项目链接

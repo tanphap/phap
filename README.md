@@ -1,7 +1,7 @@
 # PHAP
 ### *Programing Helpful Algorithm Package*
 ### Powered by Python 3.11
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
+[![Apache License 2.0](https://img.shields.io/badge/license-Apache2.0-green.svg?style=flat)](https://choosealicense.com/licenses/apache-2.0/)
 
 ### English  | [简体中文](README_zh-CN.md)
 #### *如果你不是在Github上阅读本说明，你可能无法打开非英语版本的说明文档*

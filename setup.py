@@ -31,7 +31,21 @@ classifiers=[
 
 install_requires = []
 
-extras_require = []
+extras_require = {
+#    ':python_version<"3.4"': ['pathlib2'],
+#    ':python_version<"3.3"': ['backports.shutil_get_terminal_size'],
+#    ':python_version<="2.7"': [
+#        'decorator<5',
+#        'pyte<0.8.1'
+#    ],
+#    ':python_version>"2.7"': [
+#        'decorator',
+#        'pyte'
+#    ],
+#    ":sys_platform=='win32'": [
+#        'win_unicode_console'
+#    ]
+}
 
 entry_points={
 #    'console_scripts': [
@@ -52,7 +66,7 @@ setuptools.setup(
     long_description = long_description,
     long_description_content_type = "text/markdown",
     #license="Apache 2.0",
-    scripts = scripts,
+    #scripts = scripts,
     url = "https://github.com/DashStudio/phap",
     project_urls = project_urls,
     classifiers = classifiers,
@@ -60,8 +74,7 @@ setuptools.setup(
     extras_require = extras_require,
     entry_points = entry_points,  #scripts定义
     package_dir = {"": "src"},  #包名和值的目录 有效包存放根目录
-    package_data = {"":["*.py"]},
-    packages = setuptools.find_packages(where="src", exclude=("*")),
+    packages = setuptools.find_packages(where="src"),
     python_requires = python_requires,  #支持版本
     #platforms=["Windows"],  #支持系统
 )

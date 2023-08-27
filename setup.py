@@ -5,6 +5,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 VERSION = "3.1.1a4"
 
+py_modules = [
+    "phap",
+    "cahap",
+    "phapbm",
+]
+
 project_urls={
     "Github": "https://github.com/DashStudio/phap",
     "Old Project Version(stralgo)": "https://pypi.org/project/stralgo/"
@@ -66,7 +72,7 @@ setuptools.setup(
     long_description = long_description,
     long_description_content_type = "text/markdown",
     #license="Apache 2.0",
-    #scripts = scripts,
+    scripts = scripts,
     url = "https://github.com/DashStudio/phap",
     project_urls = project_urls,
     classifiers = classifiers,
@@ -75,6 +81,7 @@ setuptools.setup(
     entry_points = entry_points,  #scripts定义
     package_dir = {"": "src"},  #包名和值的目录 有效包存放根目录
     packages = setuptools.find_packages(where="src"),
+    py_modules = py_modules,
     python_requires = python_requires,  #支持版本
     #platforms=["Windows"],  #支持系统
 )

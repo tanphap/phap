@@ -1,5 +1,5 @@
 pull:
-	git pull origin master:master
+	git pull origin
 
 push-dev:
 	git push origin dev:dev

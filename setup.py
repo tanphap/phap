@@ -60,6 +60,7 @@ setuptools.setup(
     extras_require = extras_require,
     entry_points = entry_points,  #scripts定义
     package_dir = {"": "src"},  #包名和值的目录 有效包存放根目录
+    package_data = {"":["*.py"]},
     packages = setuptools.find_packages(where="src", exclude=("*")),
     python_requires = python_requires,  #支持版本
     #platforms=["Windows"],  #支持系统

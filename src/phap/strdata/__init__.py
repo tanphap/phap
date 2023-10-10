@@ -3,11 +3,8 @@
 # 但目的是为了提高编码效率，使一些常用算法不用再费劲去再实现一遍
 # 部分可能是在互联网中收集到的（如：商密算法系列）
 
-__all__ = [
-    "base",
-    "json",
-    "hash",
-]
+from .base import *
+from .json import *
 
 # 16进制的文本转换为整数的算法实现
 def hex_to_int(text:str) -> int:

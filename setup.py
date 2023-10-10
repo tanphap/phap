@@ -3,11 +3,9 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-VERSION = "3.1.1a4"
+VERSION = "4.0.0a1"
 
 py_modules = [
-    "phap",
-    "cahap",
     "phapbm",
 ]
 
